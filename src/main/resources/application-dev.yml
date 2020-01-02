@@ -1,0 +1,16 @@
+server:
+    port: 8191
+user:
+    name: devRoshan
+    password: devroshan
+    xyz:
+       abc: random
+notification:
+    text:
+       message: dev hello text from yml file
+       from: +371262882
+    email:
+       message: dev hello email from
+       from: roshan@gmail.com
+
+    

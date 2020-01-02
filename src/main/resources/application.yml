@@ -1,5 +1,5 @@
 server:
-    port: 8190
+    port: 8194
 user:
     name: Roshan
     password: roshan
@@ -12,5 +12,16 @@ notification:
     email:
        message: hello email from
        from: roshan@gmail.com
- 
-    
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservice
+    username: root
+    password: 1234    
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
+        format_sql: false
+    database-platform: org.hibernate.dialect.MySQLDialect
+

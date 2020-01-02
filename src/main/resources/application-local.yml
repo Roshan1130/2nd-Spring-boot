@@ -1,0 +1,16 @@
+server:
+    port: 8189
+user:
+    name: localRoshan
+    password: localroshan
+    xyz:
+       abc: random
+notification:
+    text:
+       message: hello text from local yml file
+       from: +371262882
+    email:
+       message: hello email from local
+       from: roshan@gmail.com
+
+    

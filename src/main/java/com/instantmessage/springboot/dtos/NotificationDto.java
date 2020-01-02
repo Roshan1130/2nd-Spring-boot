@@ -39,4 +39,10 @@ public class NotificationDto {
 		this.message = message;
 	}
 
+	@Override
+	public String toString() {
+		return "NotificationDto [type=" + type + ", to=" + to + ", from=" + from + ", message=" + message + "]";
+	}
+	
+
 }
